@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #departid{
+            color: rgb(39, 17, 17);
+        }
+        .visionscp{
+            background-color: rgb(177, 139, 139);
+        }
+        h1,h2,h3{
+            background-color: red;
+        }
+        *{
+            background-color: lightblue;
+        }
+        div p{
+            color: rgb(255, 234, 234);
+        }
+        h1+p{
+            background-color: red;
+            color: white;
+        }
+        div>p{
+            background-color: blue;
+            color: white;
+        }
+        h1~p{
+            background-color: yellow;
+        }
+        div p:hover{
+            background-color: red;
+        }
+        input:focus{
+            background-color: green;
+        }
+        p:nth-child(even){
+            background-color: red;
+        }
+        p::before{
+            content: "hii man - ";
+            font-weight: bold;
+        }
+        p::after{
+            content: "after font-";
+        }
+        a[href^="www"]
+        {
+            background-color: red;
+        }
+        img[alt*="logo"]
+        {
+            border: 50px solid rgb(250, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Department of cse</h1>
+    <h2>Department of cse</h2>
+    <h3 id="departid">Department of cse</h3>
+    <p>vision</p>
+    <div>
+        <p>vamsi</p>
+    </div>
+    <input type="password" placeholder="Enter password">
+    <p class="visionscp">vision</p>
+    <p>vision</p>
+    <p>vision</p>
+    <p>vision</p>
+    <p>vision</p>
+    <p>vision</p>
+    <a href="www.github.com">click me for github</a>
+    <a href="https://github.com">click me for github</a>
+    <a href="www.github.com">click me for github</a>
+    <img src="SASI-LOGO-960x188-1-800x157-1.png" alt="sasi logo">
+</body>
+</html>
